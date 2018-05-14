@@ -2,6 +2,7 @@
 
 # dependencies
 /baseclient/node_modules
+/baseserver/node_modules
 
 # testing
 /baseclient/coverage

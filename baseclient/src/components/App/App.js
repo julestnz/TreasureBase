@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import Hunt from '../Hunt/Hunt';
+import Clue from '../Clue/Clue';
 
 class App extends Component {
   state = {serverMessage: []}
@@ -13,8 +15,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Server Test</h1>
+        <h1>Treasure Client</h1>
         {this.state.message}
+        <Hunt />
+        <Clue />
       </div>
     )};
 }
